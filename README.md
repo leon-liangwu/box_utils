@@ -9,3 +9,6 @@ python setup.py build_ext --inplace
 ```
 
 #### usage
+```
+python iou_test.py
+```
