@@ -1,0 +1,4 @@
+*.md linguist-language=py
+*.cu linguist-language=py
+*.hpp linguist-language=py
+*.cpp linguist-language=py
