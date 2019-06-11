@@ -14,17 +14,19 @@ python iou_test.py
 ```
 #### output
 ```
-Boxes array 1:
-[[ 50. -50. 100. 900.   0.]
- [ 60.  60. 100. 200.   0.]]
-Boxes array 2:
-[[ 50. -50. 100. 900.  -8.]
- [200. 200. 100. 200.   0.]]
-Computing rotated iou with gpu...
-[[0.5245546  0.        ]
- [0.20191085 0.        ]]
-Computing rotated iou with cpu...
-[[0.5245546  0.        ]
- [0.20191085 0.        ]]
+Boxes array 1 shape :
+(60000, 5)
+Boxes array 2 shape :
+(2, 5)
+Computing rotated iou with gpu 1st time...
+('gpu time: ', 0.22462105751037598)
+Computing rotated iou with gpu 2nd time...
+('gpu time: ', 0.0014929771423339844)
+Computing rotated iou with gpu 3rd time...
+('gpu time: ', 0.0014219284057617188)
+Computing rotated iou with cpu 1st time...
+('cpu time: ', 0.44385290145874023)
+Computing rotated iou with cpu 2nd time...
+('cpu time: ', 0.4446260929107666)
 ```
 
